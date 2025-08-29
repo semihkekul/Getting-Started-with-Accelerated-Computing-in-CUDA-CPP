@@ -4,3 +4,7 @@
 *.ptx
 *.cubin
 *.fatbin
+.vs/*
+Hello World/x64/*
+/x64/*
+*.user
