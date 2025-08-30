@@ -10,6 +10,11 @@ void CPUFunction()
 }
 
 
+__global__ void PrintConfiguration()
+{
+	printf("%d , %d : %d %d \n", gridDim.x, blockDim.x, blockIdx.x , threadIdx.x);
+}
+
 /*
 - The __global__ keyword indicates that the following function will run on the GPU, and can be invoked globally, which in this context means either by the CPU, or, by the GPU.
 - Often, code executed on the CPU is referred to as host code, and code running on the GPU is referred to as device code.
@@ -33,5 +38,7 @@ int main()
 	*/
 	cudaDeviceSynchronize();
 	CPUFunction();
+
+	PrintConfiguration << <2, 4 >> > ();
 
 }

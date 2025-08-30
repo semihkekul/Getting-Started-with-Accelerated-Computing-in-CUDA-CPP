@@ -5,6 +5,7 @@
 *.cubin
 *.fatbin
 .vs/*
-Hello World/x64/*
-/x64/*
 *.user
+*/*/x64/*
+*/x64/*
+x64/*

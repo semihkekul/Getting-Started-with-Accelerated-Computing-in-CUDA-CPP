@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.36324.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hello World", "Hello World\Hello World.vcxproj", "{28301EF0-1BDF-4C90-8C64-37DE17C28618}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Indices", "Indices\Indices.vcxproj", "{9773D5C5-2C2B-45CC-BD84-AC7BBB1FBD5F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loops", "Loops\Loops.vcxproj", "{8A887A69-5A5B-4C26-88F8-A89D4BD13D8B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Allocate", "Allocate\Allocate.vcxproj", "{C98141FD-70E8-4E85-8226-9A8CA46B0711}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Errors", "Errors\Errors.vcxproj", "{9A536AB7-5071-40DB-8998-3BC2AEFE12D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorAdd", "VectorAdd\VectorAdd.vcxproj", "{72EC1F66-C410-4F7B-9A8D-B25B8C22D77A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixMultiply2d", "matrixMultiply2d\matrixMultiply2d.vcxproj", "{13959133-0E78-4D79-BB76-12E472FE9533}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +27,30 @@ Global
 		{28301EF0-1BDF-4C90-8C64-37DE17C28618}.Debug|x64.Build.0 = Debug|x64
 		{28301EF0-1BDF-4C90-8C64-37DE17C28618}.Release|x64.ActiveCfg = Release|x64
 		{28301EF0-1BDF-4C90-8C64-37DE17C28618}.Release|x64.Build.0 = Release|x64
+		{9773D5C5-2C2B-45CC-BD84-AC7BBB1FBD5F}.Debug|x64.ActiveCfg = Debug|x64
+		{9773D5C5-2C2B-45CC-BD84-AC7BBB1FBD5F}.Debug|x64.Build.0 = Debug|x64
+		{9773D5C5-2C2B-45CC-BD84-AC7BBB1FBD5F}.Release|x64.ActiveCfg = Release|x64
+		{9773D5C5-2C2B-45CC-BD84-AC7BBB1FBD5F}.Release|x64.Build.0 = Release|x64
+		{8A887A69-5A5B-4C26-88F8-A89D4BD13D8B}.Debug|x64.ActiveCfg = Debug|x64
+		{8A887A69-5A5B-4C26-88F8-A89D4BD13D8B}.Debug|x64.Build.0 = Debug|x64
+		{8A887A69-5A5B-4C26-88F8-A89D4BD13D8B}.Release|x64.ActiveCfg = Release|x64
+		{8A887A69-5A5B-4C26-88F8-A89D4BD13D8B}.Release|x64.Build.0 = Release|x64
+		{C98141FD-70E8-4E85-8226-9A8CA46B0711}.Debug|x64.ActiveCfg = Debug|x64
+		{C98141FD-70E8-4E85-8226-9A8CA46B0711}.Debug|x64.Build.0 = Debug|x64
+		{C98141FD-70E8-4E85-8226-9A8CA46B0711}.Release|x64.ActiveCfg = Release|x64
+		{C98141FD-70E8-4E85-8226-9A8CA46B0711}.Release|x64.Build.0 = Release|x64
+		{9A536AB7-5071-40DB-8998-3BC2AEFE12D9}.Debug|x64.ActiveCfg = Debug|x64
+		{9A536AB7-5071-40DB-8998-3BC2AEFE12D9}.Debug|x64.Build.0 = Debug|x64
+		{9A536AB7-5071-40DB-8998-3BC2AEFE12D9}.Release|x64.ActiveCfg = Release|x64
+		{9A536AB7-5071-40DB-8998-3BC2AEFE12D9}.Release|x64.Build.0 = Release|x64
+		{72EC1F66-C410-4F7B-9A8D-B25B8C22D77A}.Debug|x64.ActiveCfg = Debug|x64
+		{72EC1F66-C410-4F7B-9A8D-B25B8C22D77A}.Debug|x64.Build.0 = Debug|x64
+		{72EC1F66-C410-4F7B-9A8D-B25B8C22D77A}.Release|x64.ActiveCfg = Release|x64
+		{72EC1F66-C410-4F7B-9A8D-B25B8C22D77A}.Release|x64.Build.0 = Release|x64
+		{13959133-0E78-4D79-BB76-12E472FE9533}.Debug|x64.ActiveCfg = Debug|x64
+		{13959133-0E78-4D79-BB76-12E472FE9533}.Debug|x64.Build.0 = Debug|x64
+		{13959133-0E78-4D79-BB76-12E472FE9533}.Release|x64.ActiveCfg = Release|x64
+		{13959133-0E78-4D79-BB76-12E472FE9533}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
